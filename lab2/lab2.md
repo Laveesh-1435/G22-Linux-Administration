@@ -19,7 +19,7 @@ man gedit
 ```
 
 ### Screenshot
-![gedit](gedit interface.png)
+![gedit](gedit-interface.png)
 
 ---
 
@@ -32,4 +32,4 @@ man -k ext4
 ```
 
 ### Screenshot
-![man ext4](man -k ext4.png)
+![man ext4](man-kext4.png)
