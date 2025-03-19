@@ -21,6 +21,7 @@ touch song{1..6}.mp3 snap{1..6}.jpg film{1..6}.avi
 ```
 
 ### Screenshot
+![Touch](touch.png)
 
 ---
 
@@ -33,3 +34,4 @@ mkdir friends family work
 ```
 
 ### Screenshot 
+![mkdir](mkdir.png)
