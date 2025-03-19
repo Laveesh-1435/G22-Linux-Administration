@@ -17,6 +17,9 @@ The `touch` command with **brace expansion** is used to create multiple files ef
 touch song{1..6}.mp3 snap{1..6}.jpg film{1..6}.avi
 ```
 
+### Screenshot
+
+
 ---
 
 ### 2) Creating multiple directories
