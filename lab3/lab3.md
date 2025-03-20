@@ -12,7 +12,7 @@ touch editing_final_lab.txt
 ```
 
 ### Screenshot
-![]()
+![touch](touch-file.png)
 
 
 To simplify file access, store its path in a shell variable:
@@ -21,12 +21,15 @@ lab_file="editing_final_lab.txt"
 ```
 
 ### Screenshot
-![]()
+![path](storing-path-in-shell-variable.png)
 
 ---
 
 ### 2. Editing with Nano
 Nano is a beginner-friendly text editor.
+
+#### Screenshot
+![nano](nano-lab_file.png)
 
 #### Steps:
 1. Open the file in Nano:
@@ -42,7 +45,7 @@ Nano is a beginner-friendly text editor.
 3. Save the changes (`CTRL + O`) and exit (`CTRL + X`).
 
 #### Screenshot
-![]()
+![nano-text](nano-text-preview.png)
 
 ---
 
@@ -79,9 +82,9 @@ cat $lab_file
 ### Expected Output:
 If the file initially contained:
 ```
-First line
-Second line
-Third line
+This is the first line of file
+This is the second line of file
+Thsi is the third line of file
 ```
 
 After editing with Vim, the first line should appear as:
