@@ -55,16 +55,14 @@ Vim is a powerful text editor with advanced features.
    ```bash
    vim $lab_file
    ```
-2. **Delete the Last Seven Characters of the First Line**:
+   #### Screenshot
+   ![vim](vim.png)
+3. **Delete the Last Seven Characters of the First Line**:
    - Enter visual mode (`v`), highlight the last seven characters, and press `d`.
-3. **Keep Only the First Four Characters of the First Line**:
+4. **Keep Only the First Four Characters of the First Line**:
    - Move to the start of the line, press `4l`, enter visual mode (`v`), highlight the rest, and press `d`.
-4. Save and exit:
+5. Save and exit:
    - Press `ESC`, type `:wq`, and press `Enter`.
-
-
-#### Screenshot
-![]()
 
 ---
 
@@ -89,6 +87,9 @@ After editing with Vim, the first line should appear as:
 ```
 This
 ```
+
+#### Screenshot
+![this](This.png)
 
 ---
 
