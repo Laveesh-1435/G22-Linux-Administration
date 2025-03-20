@@ -13,12 +13,12 @@ precedes or follows the brace definition.
 ### 1) Viewing the manual page for 'gedit'
 The `man` command is used to access the manual page for a specific command.
 
-### Syntax
+#### Syntax
 ```bash
 man gedit
 ```
 
-### Screenshot
+#### Screenshot
 ![gedit](gedit-interface.png)
 
 ---
@@ -26,10 +26,43 @@ man gedit
 ### 2) Searching for commands related to 'ext4'
 The `man -k` command searches for commands associated with a specific keyword.
 
-### Syntax
+#### Syntax
 ```bash
 man -k ext4
 ```
 
-### Screenshot
+#### Screenshot
 ![man ext4](man-kext4.png)
+
+---
+
+### 3) Using brace expansions
+Brace expansion is used to generate strings efficiently.
+
+#### Example 1: Creating a List of Strings.
+```bash
+echo file_{A,B,C}.txt
+```
+
+#### Screenshot
+![String](string.png)
+
+---
+
+#### Example 2: Creating a List of Numbers
+```bash
+echo number_{1..5}
+```
+
+#### Screenshot
+![numbers](numbers.png)
+
+---
+
+#### Example 3: Combining text with brace expansion
+```bash
+echo backup_{2024..2026}_v{1..3}.zip
+```
+
+#### Screenshot
+![expansion](combining-text-with-brace-expansion.png)
