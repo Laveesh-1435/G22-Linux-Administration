@@ -79,9 +79,9 @@ cat $lab_file
 ### Expected Output:
 If the file initially contained:
 ```
-This is the first line of the file.
-This is the second line of the file.
-This is the third line of the file.
+First line
+Second line
+Third line
 ```
 
 After editing with Vim, the first line should appear as:
