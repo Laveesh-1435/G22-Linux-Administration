@@ -28,24 +28,22 @@ lab_file="editing_final_lab.txt"
 ### 2. Editing with Nano
 Nano is a beginner-friendly text editor.
 
-#### Screenshot
-![nano](nano-lab_file.png)
-
 #### Steps:
 1. Open the file in Nano:
    ```bash
    nano $lab_file
    ```
+   #### Screenshot
+   ![nano](nano-lab_file.png)
 2. Add the following lines:
    ```
    First line
    Second line
    Third line
    ```
+   #### Screenshot
+   ![nano-text](nano-text-preview.png)
 3. Save the changes (`CTRL + O`) and exit (`CTRL + X`).
-
-#### Screenshot
-![nano-text](nano-text-preview.png)
 
 ---
 
