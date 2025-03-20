@@ -73,7 +73,7 @@ cat $lab_file
 ```
 
 #### Screenshot:
-![]()
+![cat](cat.png)
 
 ### Expected Output:
 If the file initially contained:
