@@ -17,7 +17,7 @@ sudo mkdir /home/consultants
 ```
 
 #### Screenshot:
-![]()
+![mkdir](mkdir-consultants.png)
 
 ---
 
@@ -33,7 +33,7 @@ sudo chmod g+w /home/consultants
 - `g+w`: Adds write (`w`) permission for the group (`g`).
 
 #### Screenshot:
-![]()
+![permissions](consultants-permission.png)
 
 ---
 
@@ -52,7 +52,7 @@ sudo chmod 770 /home/consultants
   - `0` (others): No permissions.
 
 #### Screenshot:
-![]()
+![octal](permission-octal.png)
 
 ---
 
@@ -65,7 +65,7 @@ ls -ld /home/consultants
 ```
 
 #### Expected Output:
-![]()
+![permissions](permission-octal.png)
 
 
 ---
@@ -98,7 +98,7 @@ The `umask` determines the default permissions for newly created files and direc
   - `7` (others): No permissions.
 
 #### Screenshot:
-![Changing and verifying umask]()
+![Changing and verifying umask](umask.png)
 
 ---
 
@@ -117,7 +117,7 @@ ls -l
 - Directory permissions: `drwxrwx---`
 
 #### Screenshot:
-![Confirming umask with new file and directory]()
+![Confirming umask with new file and directory](testfile.png)
 
 ---
 
