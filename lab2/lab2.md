@@ -55,7 +55,7 @@ echo number_{1..5}
 ```
 
 #### Screenshot
-![numbers](numbers.png)
+![numbers](number.png)
 
 ---
 
