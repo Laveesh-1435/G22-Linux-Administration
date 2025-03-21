@@ -25,9 +25,11 @@ The `useradd` command is used to create new user accounts.
    ```
 
 #### Screenshot:
-![Creating operator1 user](screenshots/useradd_operator1.png)
+![Creating operator1 user](useradd.png)
+
 
 ---
+
 
 ### 2. Setting and Changing Passwords
 The `passwd` command is used to assign or update passwords for user accounts.
@@ -39,9 +41,11 @@ The `passwd` command is used to assign or update passwords for user accounts.
    ```
 
 #### Screenshot:
-![Setting password for operator1](screenshots/passwd_operator1.png)
+![Setting password for operator1](user-passwd.png)
+
 
 ---
+
 
 ### 3. Modifying User Accounts
 The `usermod` command is used to update user account settings.
@@ -57,9 +61,11 @@ The `usermod` command is used to update user account settings.
    ```
 
 #### Screenshot:
-![Updating comments for operator1](screenshots/usermod_operator1.png)
+![Updating comments for operator1](user-information.png)
+
 
 ---
+
 
 ### 4. Removing User Accounts
 The `userdel` command is used to delete user accounts.
@@ -75,9 +81,11 @@ The `userdel` command is used to delete user accounts.
    ```
 
 #### Screenshot:
-![Removing operator3 user](screenshots/userdel_operator3.png)
+![Removing operator3 user](userdel.png)
+
 
 ---
+
 
 ### 5. Additional User Management Commands
 1. View all users in the system:
