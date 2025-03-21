@@ -18,21 +18,26 @@ The `ps` command displays details about active processes.
    ```bash
    ps
    ```
-2. View all processes:
+   #### Screenshot
+   ![ps](ps.png)
+   
+3. View all processes:
    ```bash
    ps -e
    ```
-3. View processes in detailed format:
+   #### Screenshot
+   ![ps -e](ps-e.png)
+   
+5. View processes in detailed format:
    ```bash
    ps -ef
    ```
-
-#### Screenshots:
-- ![Display processes for the current user]()
-- ![Display all processes]()
-- ![Display processes in full format]()
+   #### Screenshot
+   ![ps -ef](ps-ef.png)
+   
 
 ---
+
 
 #### b. Monitoring Processes with `top`
 The `top` command provides a real-time view of system processes.
@@ -43,9 +48,11 @@ top
 ```
 
 #### Screenshot:
-![Running top command](screenshots/top_command.png)
+![Running top command](top.png)
+
 
 ---
+
 
 #### c. Terminating Processes with `kill`
 The `kill` command is used to terminate processes by their PID.
@@ -55,16 +62,19 @@ The `kill` command is used to terminate processes by their PID.
    ```bash
    kill <PID>
    ```
-2. Forcefully terminate a process:
+   #### Screenshot
+   ![kill](kill.png)
+   
+3. Forcefully terminate a process:
    ```bash
    kill -9 <PID>
    ```
-
-#### Screenshots:
-- ![Terminating a process by PID](screenshots/kill_pid.png)
-- ![Forcefully terminating a process](screenshots/kill_9.png)
+   #### Screenshot
+   ![force kill](force-kill.png)
+   
 
 ---
+
 
 ### 2. Software Management with `apt-get`
 
@@ -77,9 +87,11 @@ sudo apt-get install htop
 ```
 
 #### Screenshot:
-![Installing htop](screenshots/apt_get_install.png)
+![Installing htop](sudo-apt-get-install.png)
+
 
 ---
+
 
 #### b. Updating Software
 To refresh the package list and upgrade installed packages:
@@ -89,16 +101,19 @@ To refresh the package list and upgrade installed packages:
    ```bash
    sudo apt-get update
    ```
-2. Upgrade installed packages:
+   #### Screenshot
+   ![update](sudo-apt-get-update.png)
+   
+3. Upgrade installed packages:
    ```bash
    sudo apt-get upgrade
    ```
-
-#### Screenshots:
-- ![Updating package list](screenshots/apt_get_update.png)
-- ![Upgrading packages](screenshots/apt_get_upgrade.png)
-
+   #### Screenshot
+   ![upgrade](sudo-apt-get-upgrade.png)
+   
+   
 ---
+
 
 #### c. Removing Software
 The `apt-get remove` command is used to uninstall software, and `apt-get purge` removes it along with configuration files.
@@ -108,16 +123,18 @@ The `apt-get remove` command is used to uninstall software, and `apt-get purge` 
    ```bash
    sudo apt-get remove htop
    ```
-2. Purge a package:
+   #### Screenshot
+   ![remove](remove.png)
+   
+3. Purge a package:
    ```bash
    sudo apt-get purge htop
    ```
-
-#### Screenshots:
-- ![Removing htop](screenshots/apt_get_remove.png)
-- ![Purging htop](screenshots/apt_get_purge.png)
+   ![purge](purge.png)
+   
 
 ---
+
 
 ### 3. Verifying Software Installation and Removal
 The `dpkg` command is used to check if a package is installed.
@@ -128,9 +145,11 @@ dpkg -l | grep htop
 ```
 
 #### Screenshot:
-![Verifying htop installation](screenshots/dpkg_grep_htop.png)
+![Verifying htop installation](grep.png)
+
 
 ---
+
 
 ## Conclusion
 In this lab, you practiced:
